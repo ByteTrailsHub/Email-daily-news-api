@@ -1,10 +1,10 @@
 import requests
 from send_email import send_email
 
-api_key = "8277a7c63ede4da39277c99ffa4f1af5"
+api_key = (Your API_KEY)
 url = ("https://newsapi.org/v2/top-headlines?coun"
-       "try=us&category=business&apiKey=8277a7"
-       "c63ede4da39277c99ffa4f1af5&language=en")
+       "try=us&category=business&apiKey=YOUR"
+       "API_KEY=en")
 
 #make a request
 request = requests.get(url)
